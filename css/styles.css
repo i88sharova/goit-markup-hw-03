@@ -1,0 +1,116 @@
+body {
+  font-family: Roboto, sans-serif;
+  background: #fff;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.logotype {
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.logotype .name {
+  color: #2e2f42;
+}
+.link-nav {
+  color: #2e2f42;
+  text-decoration: none;
+  font-weight: 500;
+}
+.link-nav:hover,
+.link-nav:focus {
+  color: #404bbf;
+  text-decoration: underline;
+}
+
+.address-text-fontstyle {
+  font-style: normal;
+}
+.contact-decoration {
+  color: #434455;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.contact-decoration:hover,
+.contact-decoration:focus {
+  color: #404bbf;
+  text-decoration: underline;
+}
+
+.h-text {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
+}
+.hh-text {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.hhh-text {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  color: #2e2f42;
+}
+.buttons {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  font-family: Roboto, sans-serif;
+}
+.buttons:hover,
+.buttons:focus {
+  background: #404bbf;
+}
+/* задний фон первой секции */
+.titel-style {
+  background-color: #2e2f42;
+}
+.advantage-style {
+  color: #2e2f42;
+  font-weight: 500;
+}
+.team-style {
+  background-color: #f4f4fd;
+}
+.main_text {
+  color: #434455;
+}
+.hh-text-center {
+  text-align: center;
+  color: #2e2f42;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.team-member {
+  background-color: #ffffff;
+}
+.name-futer-span {
+  color: #f4f4fd;
+}
+.color-text-futer {
+  color: #f4f4fd;
+}
+.info-futer {
+  background-color: #2e2f42;
+}
