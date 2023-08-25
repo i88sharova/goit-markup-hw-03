@@ -167,14 +167,14 @@ ul {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.conteiner {
+.container {
   margin: 0 auto;
   width: 1158px;
   padding: 0 15px;
 }
 .link-font {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
   margin-right: 332px;
 }
 * {
@@ -190,10 +190,12 @@ ul {
 .vmist-header {
   height: 72px;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
 }
-.header-conteiner-nav {
+.header-container-nav {
   display: flex;
+  align-items: center;
+  gap: 40px;
 }
 .vmist-titel {
   height: 600px;
