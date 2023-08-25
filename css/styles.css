@@ -19,6 +19,9 @@ body {
 .logotype .name {
   color: #2e2f42;
 }
+.logo-header {
+  margin-right: 76px;
+}
 .link-nav {
   color: #2e2f42;
   text-decoration: none;
@@ -217,7 +220,7 @@ ul {
   /* padding: 156px 120px; */
 }
 .advantage-size {
-  /* width: calc((100%-72px) / 4); */
+  width: calc((100%-72px) / 4);
 }
 .vmist-team {
   background: var(--cloud, #f4f4fd);
