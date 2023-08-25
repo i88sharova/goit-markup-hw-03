@@ -152,7 +152,9 @@ ul {
   padding-left: 0;
   list-style-type: none;
 }
-
+/* .header-main {
+  border-bottom: 1px solid #e7e9fc;
+} */
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -176,6 +178,9 @@ ul {
 * {
   outline: 1px solid teal;
 }
+.heder-style {
+  border-bottom: 1px solid #e7e9fc;
+}
 .link-adress {
   display: flex;
   column-gap: 40px;
@@ -184,7 +189,6 @@ ul {
   height: 72px;
   display: flex;
   align-items: center;
-  border-bottom: 1px solid var(--cornflower, #e7e9fc);
 }
 .header-conteiner-nav {
   display: flex;
