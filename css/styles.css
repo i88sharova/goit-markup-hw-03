@@ -215,15 +215,11 @@ ul {
   gap: 24px;
   align-items: stretch;
 }
-.vmist-advantage {
-  /* padding: 156px 120px; */
-}
+
 .advantage-size {
   width: calc((100%-72px) / 4);
 }
-.vmist-team {
-  background: var(--cloud, #f4f4fd);
-}
+
 .team-items {
   display: flex;
   text-align: center;
