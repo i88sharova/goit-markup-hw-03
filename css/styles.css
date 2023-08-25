@@ -177,7 +177,6 @@ ul {
 .link-font {
   display: flex;
   gap: 40px;
-  /* margin-right: 140px; */
 }
 * {
   outline: 1px solid teal;
@@ -193,7 +192,7 @@ ul {
 .vmist-header {
   height: 72px;
   display: flex;
-  /* align-items: center; */
+  align-items: center;
 }
 .header-container-nav {
   display: flex;
