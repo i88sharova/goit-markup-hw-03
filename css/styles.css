@@ -35,6 +35,7 @@ body {
 
 .address-text-fontstyle {
   font-style: normal;
+  margin-left: auto;
 }
 .contact-decoration {
   color: #434455;
@@ -176,7 +177,7 @@ ul {
 .link-font {
   display: flex;
   gap: 40px;
-  /* margin-right: 332px; */
+  /* margin-right: 140px; */
 }
 * {
   outline: 1px solid teal;
@@ -187,6 +188,7 @@ ul {
 .link-adress {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 .vmist-header {
   height: 72px;
