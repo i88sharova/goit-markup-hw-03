@@ -145,6 +145,7 @@ body {
 }
 .info-futer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 p,
 h1,
@@ -230,4 +231,8 @@ ul {
   text-align: center;
   width: calc((100%-72px) / 4);
   column-gap: 24px;
+}
+.logo-futer {
+  display: inline-block;
+  margin-bottom: 16px;
 }
