@@ -25,7 +25,7 @@ body {
   color: #2e2f42;
   text-decoration: none;
   font-weight: 500;
-  padding: 24 0;
+  padding: 24px 0;
 }
 .link-nav:hover,
 .link-nav:focus {
@@ -40,6 +40,7 @@ body {
   color: #434455;
   text-decoration: none;
   font-weight: 400;
+  padding: 24px 0;
 }
 
 .contact-decoration:hover,
@@ -175,7 +176,7 @@ ul {
 .link-font {
   display: flex;
   gap: 40px;
-  margin-right: 332px;
+  /* margin-right: 332px; */
 }
 * {
   outline: 1px solid teal;
@@ -185,7 +186,7 @@ ul {
 }
 .link-adress {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 .vmist-header {
   height: 72px;
