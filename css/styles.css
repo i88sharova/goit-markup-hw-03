@@ -223,7 +223,6 @@ ul {
 .vmist-team {
   background: var(--cloud, #f4f4fd);
   height: 732px;
-  padding: 156px 120px;
 }
 .team-items {
   display: flex;
