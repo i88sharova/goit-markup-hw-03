@@ -55,10 +55,10 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
-  padding-top: 188px;
   margin-right: auto;
   margin-left: auto;
-  width: 496px;
+
+  max-width: 496px;
   margin-bottom: 48px;
 }
 .hh-text {
@@ -76,6 +76,9 @@ body {
   color: #2e2f42;
 }
 .buttons {
+  display: block;
+  min-width: 169px;
+  height: 56px;
   color: #fff;
   font-size: 16px;
   font-weight: 500;
@@ -86,9 +89,8 @@ body {
   font-family: Roboto, sans-serif;
   margin-right: auto;
   margin-left: auto;
-  padding: 16px 32px;
-  border-radius: 4px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border: none;
+  /* padding: 16px 32px; */
 }
 .buttons:hover,
 .buttons:focus {
@@ -97,8 +99,8 @@ body {
 }
 /* задний фон первой секции */
 .titel-style {
-  /* background-color: #2e2f42; */
-  /* text-align: center; */
+  padding: 188px 0;
+  background-color: #2e2f42;
 }
 .advantage-style {
   color: #2e2f42;
@@ -200,7 +202,7 @@ ul {
   gap: 40px;
 }
 .vmist-titel {
-  height: 600px;
+  /* height: 600px; */
   background-color: #2e2f42;
   text-align: center;
 }
