@@ -15,8 +15,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-  margin-left: 156px;
-  margin-right: 76px;
 }
 .logotype .name {
   color: #2e2f42;
@@ -142,6 +140,7 @@ body {
 }
 .color-text-futer {
   color: #f4f4fd;
+  max-width: 264px;
 }
 .info-futer {
   background-color: #2e2f42;
@@ -235,4 +234,5 @@ ul {
 .logo-futer {
   display: inline-block;
   margin-bottom: 16px;
+  margin-right: 0;
 }
