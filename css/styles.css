@@ -247,3 +247,6 @@ ul {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
+img {
+  display: block;
+}
