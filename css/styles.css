@@ -169,6 +169,8 @@ ul {
 }
 .conteiner {
   margin: 0 auto;
+  width: 1158px;
+  padding: 0 15px;
 }
 .link-font {
   display: flex;
