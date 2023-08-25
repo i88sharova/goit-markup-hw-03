@@ -15,6 +15,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
+  margin-left: 156px;
+  margin-right: 76px;
 }
 .logotype .name {
   color: #2e2f42;
@@ -23,6 +25,7 @@ body {
   color: #2e2f42;
   text-decoration: none;
   font-weight: 500;
+  padding: 24 0;
 }
 .link-nav:hover,
 .link-nav:focus {
@@ -49,8 +52,12 @@ body {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #ffffff;
+  padding-top: 188px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 496px;
+  margin-bottom: 48px;
 }
 .hh-text {
   font-size: 36px;
@@ -75,14 +82,21 @@ body {
   cursor: pointer;
   background-color: #4d5ae5;
   font-family: Roboto, sans-serif;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 16px 32px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .buttons:hover,
 .buttons:focus {
   background: #404bbf;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 /* задний фон первой секции */
 .titel-style {
-  background-color: #2e2f42;
+  /* background-color: #2e2f42; */
+  /* text-align: center; */
 }
 .advantage-style {
   color: #2e2f42;
@@ -101,9 +115,20 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .team-member {
-  background-color: #ffffff;
+  display: inline-flex;
+  padding-bottom: 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  border-radius: 0px 0px 4px 4px;
+  background: var(--white, #fff);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .name-futer-span {
   color: #f4f4fd;
@@ -113,4 +138,81 @@ body {
 }
 .info-futer {
   background-color: #2e2f42;
+}
+p,
+h1,
+h2,
+h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.conteiner {
+  margin: 0 auto;
+}
+.link-font {
+  display: flex;
+  column-gap: 40px;
+  margin-right: 332px;
+}
+* {
+  outline: 1px solid teal;
+}
+.link-adress {
+  display: flex;
+  column-gap: 40px;
+}
+.vmist-header {
+  height: 72px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--cornflower, #e7e9fc);
+}
+.header-conteiner-nav {
+  display: flex;
+}
+.vmist-titel {
+  height: 600px;
+  background-color: #2e2f42;
+  text-align: center;
+}
+.advantage-items {
+  display: flex;
+  column-gap: 24px;
+  align-items: stretch;
+}
+.vmist-advantage {
+  padding: 156px 120px;
+}
+.advantage-size {
+  width: calc((100%-72px) / 4);
+}
+.vmist-team {
+  background: var(--cloud, #f4f4fd);
+  height: 732px;
+  padding: 156px 120px;
+}
+.team-items {
+  display: flex;
+  text-align: center;
+  width: calc((100%-72px) / 4);
+  column-gap: 24px;
 }
