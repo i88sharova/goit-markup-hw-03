@@ -180,8 +180,8 @@ ul {
   display: flex;
   gap: 40px;
 }
-* {
-  outline: 1px solid teal;
+/* * {
+  outline: 1px solid teal; */
 }
 .heder-style {
   border-bottom: 1px solid #e7e9fc;
